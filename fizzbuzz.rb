@@ -3,11 +3,14 @@
 
 def fizzbuzz(m)
   s = ""
-  if m % 3:
+  if m % 3
     s += "Fizz"
-  if m % 5:
+  end
+  if m % 5
     s += "Buzz"
-  if s.size > 0:
+  end
+  if s.size > 0
     return s
+  end
   return m
 end
