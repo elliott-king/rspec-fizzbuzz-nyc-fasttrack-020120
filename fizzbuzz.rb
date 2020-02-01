@@ -12,5 +12,5 @@ def fizzbuzz(m)
   if s.size > 0
     return s
   end
-  return m
+  return nil
 end
